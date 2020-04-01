@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Подбор оптимального вклада</title>
+    <link rel="stylesheet" href="css\style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="menu">
+        <div class="header">
+            <img src="images\logo.png" alt="logo-bank">
+            <ul>
+                <li><a class="log list" href="#">LOG IN</a></li>
+                <li><a class="list" href="#">HOME</a></li>
+                <li><a class="list" href="#">ABOUT BANK</a></li>
+                <li><a class="list" href="#">BUSINESS FOCUS</a></li>
+                <li><a class="list" href="#">CORPORATE STRATEGY</a></li>
+                <li><a class="list" href="#">INVESTOR RELATIONS</a></li>
+                <li><a class="list" href="#">PRESS CENTER</a></li>
+                <li><a class="list" href="#">CAREER</a></li>
+            </ul>
+        </div>
+        <div class="left">
+            <span class="lorem">SPANISH</span>
+            <span class="ipsum">CONGLOMERATE</span>
+            <p class="text">Bankia is a spanish bank that is included in the Ibex 35. It operates throughout Spain,
+                with a universal banking business model based on multi-channel management and specialized in serving
+                individuals and businesses.</p>
+        </div>
+        <div class="main">
+            <h1>Подбор оптимального вклада</h1>
+            <div class="border">
+                <div class="parameters">
+                    <p>Начальная сумма</p>
+                    <input type="number" name="" id="initialAmount">
+                </div>
+
+                <div class="parameters">
+                    <p>Сумма ежемесячного пополнения</p>
+                    <input type="number" name="" id="monthlyReplenishment">
+                </div>
+
+                <div class="parameters">
+                    <p>Срок вклада</p>
+                    <input type="number" name="" id="depositTerm">
+                </div>
+
+                <div class="parameters">
+                    <p>Валюта вклада</p>
+                    <input type="text" name="" id="depositCurrency">
+                </div>
+
+                <div class="knob">
+                    <button id="button">Подобрать</button>
+                </div>
+            </div>
+            <div class="div-table">
+                <table>
+                    <tbody id="tbody">
+                        <tr>
+                            <th>Название банка</th>
+                            <th>Вклад</th>
+                            <th>Процент</th>
+                            <th>Итоговая сумма</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="footer">
+            <span class="foot-left">© BANKIA. All rights reserved.</span>
+            <span class="foot-right"><a href="#">SEE MORE</a></span>
+        </div>
+    </div>
+    <script src="script\script.js"></script>
+</body>
+
+</html>

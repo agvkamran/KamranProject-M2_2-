@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+body {
+    /* background-image: url(https://i.pinimg.com/originals/5c/f2/66/5cf2660af5f4214def7166dc7a7c8062.jpg);
+    background-image: url(https://corporationchina.com/wp-content/uploads/2018/07/JD-PALLAS-Website-Partnerships-Background.jpg); */
+    /* background-image: url(https://images4.alphacoders.com/570/570798.jpg); */
+    background-image: url(https://w-dog.ru/wallpapers/9/4/438953232347749.jpg);
+    background-size: 100% ;
+    padding: 5px 15px;
+}
+.left {
+    width: 300px;
+    float: left;
+}
+.main{
+    width: 675px;
+    margin: 0 auto;
+    float: left;
+    position: absolute;
+    right: 100px;
+}
+.border {
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 15px;
+    border-color: rgba(208, 211, 212, .7);
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+p{
+    display: inline-block;
+    padding-top: 10px 0;
+    text-transform: uppercase;
+    margin-left: 10px;
+    color: white;
+}
+input{
+    float: right;
+    margin-top: 11px;
+    margin-right: 10px;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+}
+#button {
+    width: 98.5%;
+    background-color: #EAEA64;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+    margin-top: 5px;
+    color: white;
+    font-size: 20px;
+}
+.div-table {
+    width: 100%;
+    margin-top: 25px;
+    border: 1px solid rgba(208, 211, 212, .7);
+    border-radius: 10px;
+    color: white;
+}
+td{
+    font-size: 18px;
+    padding-left: 45px;
+}
+td:first-child {
+    padding-left: 60px;
+}
+th{
+    font-size: 18px;
+    padding-left: 45px;
+}
+th:first-child {
+    padding-left: 60px;
+}
+.header {
+    width: 100%;
+    height: 120px;
+}
+
+.list {
+    margin: 0 auto;
+    margin-left: 25px;
+    margin-right: 25px;
+    float: right;
+}
+span {
+    color: white;
+}
+.lorem {
+    font-size: 120px;
+}
+.ipsum {
+    font-size: 60px;
+}
+.log {
+    border: 1px solid white;
+    padding: 0 15px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+.log:hover {
+    background-color: seashell;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+ul li{
+    display: inline;
+    float: right;
+    margin-top: 20px;
+}
+img {
+    width: 150px;
+    height: 50px;
+    position: absolute;
+}
+.text {
+    font-size: 20px;
+    width: 100%;
+}
+
+.foot-left {
+    position: absolute;
+    bottom: 25px;
+    left: 30px;
+    color: white;
+}
+.foot-right {
+    float: right;
+    position: absolute;
+    right: 50px;
+    bottom: 15px;
+    background-color: #EAEA64;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+.foot-right:hover{
+    background-color: yellow;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
